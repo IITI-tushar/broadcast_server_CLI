@@ -21,7 +21,7 @@ This project implements a command-line based message broadcast system using WebS
 1.  Clone the repository or download the files to your local machine.
 2.  Navigate to the project directory:
     ```bash
-    cd /home/tushar/tutorial-projects/backend/msg-broadcast-server
+    cd /msg-broadcast-server
     ```
 3.  Install the dependencies:
     ```bash
