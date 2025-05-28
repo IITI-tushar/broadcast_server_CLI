@@ -1,0 +1,21 @@
+{
+  "name": "msg-broadcast-cli",
+  "version": "1.0.0",
+  "description": "CLI for broadcasting messages",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "broadcast-server": "./cli.js"
+  },
+  "scripts": {
+    "start-server": "node cli.js start",
+    "connect-client": "node cli.js connect"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.17.0",
+    "yargs": "^17.7.2"
+  }
+}
